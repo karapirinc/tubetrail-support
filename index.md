@@ -57,8 +57,8 @@
     </div>
 
     <section class="contact">
-      <p><a href="https://karapirinc.github.io/tubetrail-support/support.md">Questions? Email us!</a></p>
-      <p><a href="https://karapirinc.github.io/tubetrail-support/privacy.md">Privacy Policy</a></p>
+      <p><a href="https://karapirinc.github.io/tubetrail-support/support">Questions? Email us!</a></p>
+      <p><a href="https://karapirinc.github.io/tubetrail-support/privacy">Privacy Policy</a></p>
     </section>
   </div>
 
