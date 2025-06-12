@@ -30,7 +30,7 @@
 
   <div class="container">
     <section class="hero">
-      <img src="screenshot-map.png" alt="Map view with video pins" />
+      <img src="screenshot-map.jpeg" alt="Map view with video pins" />
     </section>
 
     <section class="features">
