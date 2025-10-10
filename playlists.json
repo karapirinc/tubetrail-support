@@ -1,0 +1,120 @@
+{
+  "playlists": [
+    {
+      "id": "dc5128b3-3bd0-440a-b9a4-d48377173515",
+      "title": "Şefle Ye: İstanbul Özel Turları",
+      "description": "",
+      "center": {
+        "lat": 41.0082,
+        "lon": 28.9784
+      },
+      "radius": 10000,
+      "videoCount": 11,
+      "totalDuration": 15071,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/c5PpnePWFfE/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Food & Dining",
+      "city": "Istanbul",
+      "source": "youtube",
+      "externalID": "PLEPNSil4Fq5LkroZBTjH7C5MfQn1ZZRqH"
+    },
+    {
+      "id": "5ae91f72-2016-4bca-bdda-9b61ae408e5f",
+      "title": "Paha Biçilemez İstanbul | Bölümler",
+      "description": "Geçmişi üç imparatorluk barındıran, 8000 yıllık bir tarihe sahip, iki kıta üzerine kurulu ve içinden deniz geçen İstanbul'un sırları, Saffet Emre Tonguç ile 'Paha Biçilemez İstanbul'da.",
+      "center": {
+        "lat": 41.0082,
+        "lon": 28.9784
+      },
+      "radius": 10000,
+      "videoCount": 26,
+      "totalDuration": 52701,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/Hx8tZyhX-CI/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Culture & History",
+      "city": "Istanbul",
+      "source": "youtube",
+      "externalID": "PLP_aMLcz011hMnDhNhTtHo9rmrtkB1w4Q"
+    },
+    {
+      "id": "34108a7e-84dd-41e9-ad08-22517fb97f6a",
+      "title": "Tokyo Food Tour!",
+      "description": "",
+      "center": {
+        "lat": 35.6762,
+        "lon": 139.6503
+      },
+      "radius": 10000,
+      "videoCount": 7,
+      "totalDuration": 3768,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/W8b2jdY22nM/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Food & Dining",
+      "city": "Tokyo",
+      "source": "youtube",
+      "externalID": "PLgXInp8TVYBfSPy1RPBbxVxgixOmpYTND"
+    },
+    {
+      "id": "3e12c556-07a1-4786-bbdb-f8f74281746d",
+      "title": "Japan Guides by Paolo fromTOKYO",
+      "description": "",
+      "center": {
+        "lat": 35.6762,
+        "lon": 139.6503
+      },
+      "radius": 10000,
+      "videoCount": 56,
+      "totalDuration": 42760,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/8m7dnI2nrU8/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Tokyo",
+      "source": "youtube",
+      "externalID": "PLcpuu5BzmasDlKYp2xFze8cEg9WO4Fhqs"
+    },
+    {
+      "id": "d227f70c-0f2f-4c50-b0e7-eaa244cc78c9",
+      "title": "Tokyo Travel Guides",
+      "description": "",
+      "center": {
+        "lat": 35.6762,
+        "lon": 139.6503
+      },
+      "radius": 10000,
+      "videoCount": 7,
+      "totalDuration": 9124,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/cS-hFKC_RKI/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Tokyo",
+      "source": "youtube",
+      "externalID": "PLInBY9kAGt-excKeYPGwSslBr-4l8q7wW"
+    }
+  ],
+  "version": "1.0.0",
+  "last_updated": "2025-10-10T14:43:28.284726Z",
+  "categories": [
+    "Culture & History",
+    "Food & Dining",
+    "Travel & Guides"
+  ],
+  "cities": [
+    "Istanbul",
+    "Tokyo"
+  ]
+}
