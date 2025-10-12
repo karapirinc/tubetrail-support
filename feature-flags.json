@@ -1,0 +1,11 @@
+  {
+    "version": "0.4.0",
+    "flags": {
+      "enablePlaylistSuggestionNotifications": true,
+      "enableAdvancedSearch": true,
+      "enableOfflineMode": true,
+      "enableSocialSharing": true,
+      "enableAnalytics": true,
+      "enableBetaFeatures": true
+    }
+  }
