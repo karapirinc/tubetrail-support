@@ -1,7 +1,7 @@
 {
   "playlists": [
     {
-      "id": "dc5128b3-3bd0-440a-b9a4-d48377173515",
+      "id": "9d3d8521-2bd5-4849-8f7c-17217e91e27d",
       "title": "Şefle Ye: İstanbul Özel Turları",
       "description": "",
       "center": {
@@ -22,7 +22,7 @@
       "externalID": "PLEPNSil4Fq5LkroZBTjH7C5MfQn1ZZRqH"
     },
     {
-      "id": "5ae91f72-2016-4bca-bdda-9b61ae408e5f",
+      "id": "c150d4c2-3cf9-448b-99fe-2355d4510e5d",
       "title": "Paha Biçilemez İstanbul | Bölümler",
       "description": "Geçmişi üç imparatorluk barındıran, 8000 yıllık bir tarihe sahip, iki kıta üzerine kurulu ve içinden deniz geçen İstanbul'un sırları, Saffet Emre Tonguç ile 'Paha Biçilemez İstanbul'da.",
       "center": {
@@ -43,7 +43,49 @@
       "externalID": "PLP_aMLcz011hMnDhNhTtHo9rmrtkB1w4Q"
     },
     {
-      "id": "34108a7e-84dd-41e9-ad08-22517fb97f6a",
+      "id": "4c7d974d-768f-4df7-b9ac-ae1218ca1527",
+      "title": "Istanbul Travel Vlogs",
+      "description": "",
+      "center": {
+        "lat": 41.0082,
+        "lon": 28.9784
+      },
+      "radius": 10000,
+      "videoCount": 13,
+      "totalDuration": 13198,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/ITDpXYU_Pjk/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Istanbul",
+      "source": "youtube",
+      "externalID": "PLBK5msrCbVF9V2h-4ROkJzatK_AGXyHeY"
+    },
+    {
+      "id": "1decc6fa-d5fe-477f-8f39-9de3034280d4",
+      "title": "ISTANBUL TRAVEL VLOGS 🇹🇷🕌",
+      "description": "40 Days worth of living in Istanbul. Food, events, top attractions and more.",
+      "center": {
+        "lat": 41.0082,
+        "lon": 28.9784
+      },
+      "radius": 10000,
+      "videoCount": 7,
+      "totalDuration": 3519,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/xWvEkdg18Zg/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Istanbul",
+      "source": "youtube",
+      "externalID": "PLPgkRwml52ZUroAPGQBQ7CBCVDF-c3o0_"
+    },
+    {
+      "id": "899c29dd-4f3c-4dd6-b4e7-721531fac324",
       "title": "Tokyo Food Tour!",
       "description": "",
       "center": {
@@ -64,7 +106,7 @@
       "externalID": "PLgXInp8TVYBfSPy1RPBbxVxgixOmpYTND"
     },
     {
-      "id": "3e12c556-07a1-4786-bbdb-f8f74281746d",
+      "id": "a0f7d474-2c12-4284-b7d8-55aac0234329",
       "title": "Japan Guides by Paolo fromTOKYO",
       "description": "",
       "center": {
@@ -85,7 +127,7 @@
       "externalID": "PLcpuu5BzmasDlKYp2xFze8cEg9WO4Fhqs"
     },
     {
-      "id": "d227f70c-0f2f-4c50-b0e7-eaa244cc78c9",
+      "id": "0ef189e1-985e-46ee-974c-0ca7e159b152",
       "title": "Tokyo Travel Guides",
       "description": "",
       "center": {
@@ -104,17 +146,466 @@
       "city": "Tokyo",
       "source": "youtube",
       "externalID": "PLInBY9kAGt-excKeYPGwSslBr-4l8q7wW"
+    },
+    {
+      "id": "d155d98a-9636-47a3-af13-e8e7c220631c",
+      "title": "TOKYO JAPAN VLOGS 2023",
+      "description": "",
+      "center": {
+        "lat": 35.6762,
+        "lon": 139.6503
+      },
+      "radius": 10000,
+      "videoCount": 5,
+      "totalDuration": 5199,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/FlN7nPq3chk/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Tokyo",
+      "source": "youtube",
+      "externalID": "PL8gEhDI9hGozVM0rxPNlsNBPVt28gPgch"
+    },
+    {
+      "id": "88633889-fb0b-45f1-bfab-a0f261341cb3",
+      "title": "Travel Guide Tokyo",
+      "description": "",
+      "center": {
+        "lat": 35.6762,
+        "lon": 139.6503
+      },
+      "radius": 10000,
+      "videoCount": 92,
+      "totalDuration": 91724,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/FZxl9638f8s/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Tokyo",
+      "source": "youtube",
+      "externalID": "PLaTwsQi6BOg6LQaSRs5O5rcFJ7wZSbJtq"
+    },
+    {
+      "id": "09c15eb6-1b20-43ad-904d-45f7e7ad786b",
+      "title": "Paris Travel Tips & Guide",
+      "description": "This playlist has practical information about how to plan your trip to Paris, how to use transportation in Paris, how to use the Paris metro, What to wear in Paris, When is the best time to visit Paris, Is Paris safe, the best way to book tours, the best way to visit museums and attractions. All of the top travel tips for your dream vacation in Paris France",
+      "center": {
+        "lat": 48.8566,
+        "lon": 2.3522
+      },
+      "radius": 10000,
+      "videoCount": 154,
+      "totalDuration": 167403,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/EVyHHzkW_Ro/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Paris",
+      "source": "youtube",
+      "externalID": "PLuhJOez6nh5Lto_-IurbJcylAhBAVTWjU"
+    },
+    {
+      "id": "e4a2179f-9857-4978-bf55-74fd58c7e7c4",
+      "title": "1st Time in Paris",
+      "description": "This playlist had videos to help people on their first trip to Paris.  How to plan your trip to Paris, What to expect in Paris, What to pack or bring to Paris, what to do before my first trip to Paris, what you need to know before you go to Paris, best ways to get around Paris, Paris travel guide, top tips for first time in Paris, how to stay safe in Paris, where to stay in Paris.",
+      "center": {
+        "lat": 48.8566,
+        "lon": 2.3522
+      },
+      "radius": 10000,
+      "videoCount": 100,
+      "totalDuration": 117771,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/7FWfz1FP7RE/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Paris",
+      "source": "youtube",
+      "externalID": "PLuhJOez6nh5Im9Yq1XDOUAdOK2EhFCMqg"
+    },
+    {
+      "id": "48b0286c-c368-440c-8ac5-ac35ca0a93cd",
+      "title": "Paris Travel Vlogs",
+      "description": "",
+      "center": {
+        "lat": 48.8566,
+        "lon": 2.3522
+      },
+      "radius": 10000,
+      "videoCount": 8,
+      "totalDuration": 7441,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/7BxaSSwRzeg/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Paris",
+      "source": "youtube",
+      "externalID": "PLYLi7gA3tKMRs3quRwJedWQUG_hETmXz6"
+    },
+    {
+      "id": "fb7b4498-3ebf-4193-9410-9e84e238c8dc",
+      "title": "London Guides",
+      "description": "Our London guides will show you the best things to do, places to eat, and itinerary days. London will feel like home when you land after binging this playlist.",
+      "center": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "radius": 10000,
+      "videoCount": 18,
+      "totalDuration": 14043,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/8R3MumVgNU8/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "London",
+      "source": "youtube",
+      "externalID": "PLVsIaSWXhTrBEVS393f76vq34gSNnErqo"
+    },
+    {
+      "id": "0ae06b8f-2218-4dd4-b631-7d6b98df5185",
+      "title": "London Travel Vlogs",
+      "description": "Nomadic Jas travels around London to show you the sights and sounds and provides tips on what to see and what to avoid.  Come and join me in my London travel vlog.",
+      "center": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "radius": 10000,
+      "videoCount": 17,
+      "totalDuration": 8048,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/P8SG62_8_Yg/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "London",
+      "source": "youtube",
+      "externalID": "PLzxfjW7YtkayMXZXWa65BiLwziEmVfD2V"
+    },
+    {
+      "id": "a716bc68-1f73-4e6b-b67d-6dfe738af02b",
+      "title": "London UK Travel Guide",
+      "description": "Explore the ultimate London travel guide playlist! Discover the best things to do in London, UK, from iconic attractions like the Tower of London and Buckingham Palace to hidden gems across the city. Find recommendations on top places to stay, including luxury hotels and budget-friendly options. Dive into London’s vibrant food scene with guides to the best restaurants, local pubs, and must-try dishes. Perfect for first-time visitors and seasoned travelers alike, this playlist will help you plan an unforgettable London trip with tips on transportation, shopping hotspots, nightlife, and more. Start exploring London today!",
+      "center": {
+        "lat": 51.5074,
+        "lon": -0.1278
+      },
+      "radius": 10000,
+      "videoCount": 40,
+      "totalDuration": 17329,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/pZGAerNibpo/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "London",
+      "source": "youtube",
+      "externalID": "PLHjkQAwh0yFw93TKThIlVsOpNuIjUtSVI"
+    },
+    {
+      "id": "a2a9bddd-8ab1-4129-bced-ab7f72b670f3",
+      "title": "Dubai Travel Vlogs 2023",
+      "description": "",
+      "center": {
+        "lat": 25.2048,
+        "lon": 55.2708
+      },
+      "radius": 10000,
+      "videoCount": 4,
+      "totalDuration": 7916,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/dXefRnWdRfc/sddefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Dubai",
+      "source": "youtube",
+      "externalID": "PLzHRSHS9p7SsEQJFfl1uhxZTqG_9KjJIe"
+    },
+    {
+      "id": "312ce42c-196a-4c31-9672-349ff2b96d65",
+      "title": "Dubai Travel 2023",
+      "description": "",
+      "center": {
+        "lat": 25.2048,
+        "lon": 55.2708
+      },
+      "radius": 10000,
+      "videoCount": 16,
+      "totalDuration": 2187,
+      "thumbnails": [
+        "https://i.ytimg.com/img/no_thumbnail.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Dubai",
+      "source": "youtube",
+      "externalID": "PLXo07Gc7AC6x201z-7j04MoHtIG96uU7_"
+    },
+    {
+      "id": "c13476b4-b3f7-45b7-8ccf-7f7557eb8e1d",
+      "title": "Dubai Travel Vlog Series",
+      "description": "",
+      "center": {
+        "lat": 25.2048,
+        "lon": 55.2708
+      },
+      "radius": 10000,
+      "videoCount": 11,
+      "totalDuration": 5282,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/8RpNie5O6Rw/sddefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Dubai",
+      "source": "youtube",
+      "externalID": "PLB4hqCaCLM_pJavS_oVT2nJYSI5rA-jV_"
+    },
+    {
+      "id": "6a6106d6-959e-437f-a3e1-d88fe9cd84fc",
+      "title": "🇸🇬 SINGAPORE Travel Vlogs 2023",
+      "description": "Vlogs from my time in Singapore 2023",
+      "center": {
+        "lat": 1.3521,
+        "lon": 103.8198
+      },
+      "radius": 10000,
+      "videoCount": 5,
+      "totalDuration": 4558,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/4Xz9zzqmuQE/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Singapore",
+      "source": "youtube",
+      "externalID": "PL_9F7IkJZhQ-ECWhk5h36dmrNRjN8qfXx"
+    },
+    {
+      "id": "7cafa574-ceaf-4040-9d6c-130440f55e19",
+      "title": "SINGAPORE TRAVEL VLOGS",
+      "description": "",
+      "center": {
+        "lat": 1.3521,
+        "lon": 103.8198
+      },
+      "radius": 10000,
+      "videoCount": 19,
+      "totalDuration": 14089,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/Mcy89j1IdQ4/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Singapore",
+      "source": "youtube",
+      "externalID": "PLWtKE4ZqZ-qGgYZ37g1xBoXD6KZYyGaE_"
+    },
+    {
+      "id": "4fb9a448-2486-417c-bdeb-b15dc887b5dc",
+      "title": "Complete Guide to NYC!",
+      "description": "We're putting our best New York compilations in here: attractions, food, neighborhood tours and scams to avoid!",
+      "center": {
+        "lat": 40.7128,
+        "lon": -74.006
+      },
+      "radius": 10000,
+      "videoCount": 25,
+      "totalDuration": 284199,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/3odHzPRZars/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "New York",
+      "source": "youtube",
+      "externalID": "PLb_xU7RWYGbZQpg-ASYtELD0apLV30Ls4"
+    },
+    {
+      "id": "882539a6-08d9-4b7d-b8ba-c452dac8331a",
+      "title": "NYC Travel",
+      "description": "In this New York City for travelers playlist, find videos related to NYC experiences and day trips.",
+      "center": {
+        "lat": 40.7128,
+        "lon": -74.006
+      },
+      "radius": 10000,
+      "videoCount": 36,
+      "totalDuration": 7965,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/12LuEfCQaTY/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "New York",
+      "source": "youtube",
+      "externalID": "PLiWHsD6tNhotZ_2H2S8W8chqwep1gjdmv"
+    },
+    {
+      "id": "154f3644-4da2-4b77-90f8-c7cdfdd2b57a",
+      "title": "Rome Vlogs!",
+      "description": "My family and I love Rome SO much, we have been many times, and we will continue to go. I know many if you also have a passion for the Eternal City so I have created a playlist with all of my Rome videos in one place. Please enjoy our Italian travels, as well as Rome related videos! Xo",
+      "center": {
+        "lat": 41.9028,
+        "lon": 12.4964
+      },
+      "radius": 10000,
+      "videoCount": 14,
+      "totalDuration": 18231,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/sK7LBOv_Gyo/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Culture & History",
+      "city": "Rome",
+      "source": "youtube",
+      "externalID": "PLFErqpUpUgPrGzVvB_9nlF4qgj6ZzOEus"
+    },
+    {
+      "id": "98e3b211-dbd7-4434-abef-4aa269d93483",
+      "title": "ROME Travel Tips & Guides",
+      "description": "",
+      "center": {
+        "lat": 41.9028,
+        "lon": 12.4964
+      },
+      "radius": 10000,
+      "videoCount": 66,
+      "totalDuration": 30089,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/EvXkoFKtwp0/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Rome",
+      "source": "youtube",
+      "externalID": "PLImrOUNmoIMI1fkcamsg9e2GXGBymqsh8"
+    },
+    {
+      "id": "123fdeb3-b782-4f60-a635-54c828a8a031",
+      "title": "Ultimate Bangkok Travel Guide: Top Attractions, Things to Do & Must-Visit Places!",
+      "description": "Planning a trip to Bangkok? This ultimate Bangkok travel playlist has everything you need! From top attractions and must-visit places to hidden gems and exciting things to do, we’ve covered it all. Explore stunning temples, vibrant street markets, delicious food spots, and thrilling experiences across the city. Whether you’re a first-time visitor or a frequent traveler, our F&D Wanderings vlogs will help you make the most of your Bangkok adventure. Watch now and start exploring!",
+      "center": {
+        "lat": 13.7563,
+        "lon": 100.5018
+      },
+      "radius": 10000,
+      "videoCount": 9,
+      "totalDuration": 2919,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/_a2iKeRwk7A/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Bangkok",
+      "source": "youtube",
+      "externalID": "PL91A4I-PRZv-m7Fz3TBVst2tt0g5VfnKR"
+    },
+    {
+      "id": "a43dc4aa-a3e7-45a4-a38f-bee559a4c714",
+      "title": "Bangkok Thailand Vlog Series",
+      "description": "",
+      "center": {
+        "lat": 13.7563,
+        "lon": 100.5018
+      },
+      "radius": 10000,
+      "videoCount": 16,
+      "totalDuration": 10205,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/nLi-hgBiuPA/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Bangkok",
+      "source": "youtube",
+      "externalID": "PLrkpUkmtHNoW9mzwMLXQsmG-NcoqUyoN1"
+    },
+    {
+      "id": "f0f51789-df51-4bc4-9b8a-81241699bb84",
+      "title": "Barcelona Travel Guide",
+      "description": "",
+      "center": {
+        "lat": 41.3851,
+        "lon": 2.1734
+      },
+      "radius": 10000,
+      "videoCount": 4,
+      "totalDuration": 2261,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/OfrAlT9X0Vo/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Barcelona",
+      "source": "youtube",
+      "externalID": "PLCiXJ1xR9CdgI3Tum2wgO3O4OwDKxUP9B"
+    },
+    {
+      "id": "0e03a7ef-f9b6-40c2-b701-e3f6327484ca",
+      "title": "Barcelona Travel Tips and Guides",
+      "description": "",
+      "center": {
+        "lat": 41.3851,
+        "lon": 2.1734
+      },
+      "radius": 10000,
+      "videoCount": 35,
+      "totalDuration": 45339,
+      "thumbnails": [
+        "https://i.ytimg.com/vi/MbPnsCwD2z8/maxresdefault.jpg"
+      ],
+      "isUserCreated": false,
+      "isCurated": true,
+      "category": "Travel & Guides",
+      "city": "Barcelona",
+      "source": "youtube",
+      "externalID": "PLyWGeofUmuOn_2bQenXUP_bQUdy06kI_V"
     }
   ],
   "version": "1.0.0",
-  "last_updated": "2025-10-10T14:43:28.284726Z",
+  "last_updated": "2025-10-19T15:19:19.489061Z",
   "categories": [
     "Culture & History",
     "Food & Dining",
     "Travel & Guides"
   ],
   "cities": [
+    "Bangkok",
+    "Barcelona",
+    "Dubai",
     "Istanbul",
+    "London",
+    "New York",
+    "Paris",
+    "Rome",
+    "Singapore",
     "Tokyo"
   ]
 }
