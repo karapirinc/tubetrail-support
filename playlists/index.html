@@ -271,8 +271,19 @@
   </div>
 
   <script>
-    // Extract playlist UUID from URL path
+    // Extract playlist UUID from URL (query parameter or path)
+    // Priority 1: Query parameter (?id={uuid}) - New format for GitHub Pages compatibility
+    // Priority 2: Path format (/playlists/{uuid}) - Backward compatibility for legacy links
     function getPlaylistId() {
+      // Try query parameter first (new format)
+      const urlParams = new URLSearchParams(window.location.search);
+      const id = urlParams.get('id');
+
+      if (id && /^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i.test(id)) {
+        return id;
+      }
+
+      // Fallback: try path format for backward compatibility
       const path = window.location.pathname;
       // Match pattern: /playlists/{uuid} or /tubetrail-support/playlists/{uuid}
       const match = path.match(/\/playlists\/([a-f0-9-]+)/i);
