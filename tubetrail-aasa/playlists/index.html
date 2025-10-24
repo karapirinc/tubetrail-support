@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shared Playlist - TubeTrail</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 1rem;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+
+    header {
+      background: #FF0000;
+      color: white;
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1rem;
+      opacity: 0.95;
+    }
+
+    .content {
+      padding: 2rem 1.5rem;
+    }
+
+    .share-message {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .share-message .icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .share-message h2 {
+      margin: 0 0 0.5rem;
+      font-size: 1.5rem;
+      color: #333;
+    }
+
+    .share-message p {
+      margin: 0;
+      color: #666;
+      font-size: 1rem;
+    }
+
+    .playlist-info {
+      background: #f9f9f9;
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 1.5rem 0;
+      border-left: 4px solid #FF0000;
+    }
+
+    .playlist-info .label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      color: #999;
+      margin-bottom: 0.25rem;
+    }
+
+    .playlist-info .value {
+      font-family: 'Monaco', 'Courier New', monospace;
+      font-size: 0.9rem;
+      color: #333;
+      word-break: break-all;
+    }
+
+    .app-description {
+      margin: 1.5rem 0;
+    }
+
+    .app-description h3 {
+      margin: 0 0 1rem;
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    .features {
+      display: grid;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .feature {
+      display: flex;
+      align-items: start;
+      gap: 0.75rem;
+    }
+
+    .feature-icon {
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .feature-text {
+      flex: 1;
+    }
+
+    .feature-text strong {
+      display: block;
+      margin-bottom: 0.25rem;
+      color: #333;
+    }
+
+    .feature-text span {
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    .cta {
+      text-align: center;
+      margin: 2rem 0 1rem;
+    }
+
+    .download-btn {
+      display: inline-block;
+      background: #e0e0e0;
+      color: #999;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: not-allowed;
+      position: relative;
+    }
+
+    .download-btn::after {
+      content: 'Coming Soon';
+      position: absolute;
+      top: -8px;
+      right: -8px;
+      background: #FF0000;
+      color: white;
+      font-size: 0.7rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 700;
+    }
+
+    .footer-links {
+      text-align: center;
+      padding: 1rem 0;
+      border-top: 1px solid #eee;
+      margin-top: 1.5rem;
+    }
+
+    .footer-links a {
+      color: #FF0000;
+      text-decoration: none;
+      margin: 0 0.75rem;
+      font-size: 0.9rem;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #f5f5f5;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 0;
+        border-radius: 0;
+        min-height: 100vh;
+      }
+
+      body {
+        background: white;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎬 TubeTrail</h1>
+      <p>Discover YouTube on a Map</p>
+    </header>
+
+    <div class="content">
+      <div class="share-message">
+        <div class="icon">🎁</div>
+        <h2>A friend shared a playlist with you!</h2>
+        <p>Open in TubeTrail to explore geotagged videos</p>
+      </div>
+
+      <div class="playlist-info" id="playlistInfo">
+        <div class="label">Playlist ID</div>
+        <div class="value" id="playlistId">Loading...</div>
+      </div>
+
+      <div class="app-description">
+        <h3>What is TubeTrail?</h3>
+        <div class="features">
+          <div class="feature">
+            <div class="feature-icon">🗺️</div>
+            <div class="feature-text">
+              <strong>Interactive Map</strong>
+              <span>Discover videos pinned to real-world locations</span>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">📍</div>
+            <div class="feature-text">
+              <strong>Curated Playlists</strong>
+              <span>Collections of videos organized by location</span>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">🎥</div>
+            <div class="feature-text">
+              <strong>Watch & Explore</strong>
+              <span>Play videos and discover nearby content</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta">
+        <span class="download-btn">Download TubeTrail</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://karapirinc.github.io/tubetrail-support/support.html" target="_blank">Support</a>
+        <a href="https://karapirinc.github.io/tubetrail-support/privacy.html" target="_blank">Privacy</a>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2025 TubeTrail – Built by Yusuf İsmail Oktay
+    </footer>
+  </div>
+
+  <script>
+    // Extract playlist UUID from URL (query parameter or path)
+    // Priority 1: Query parameter (?id={uuid}) - New format for GitHub Pages compatibility
+    // Priority 2: Path format (/playlists/{uuid}) - Backward compatibility for legacy links
+    function getPlaylistId() {
+      // Try query parameter first (new format)
+      const urlParams = new URLSearchParams(window.location.search);
+      const id = urlParams.get('id');
+
+      if (id && /^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i.test(id)) {
+        return id;
+      }
+
+      // Fallback: try path format for backward compatibility
+      const path = window.location.pathname;
+      // Match pattern: /playlists/{uuid} or /tubetrail-support/playlists/{uuid}
+      const match = path.match(/\/playlists\/([a-f0-9-]+)/i);
+
+      if (match && match[1]) {
+        return match[1];
+      }
+
+      return null;
+    }
+
+    // Initialize page
+    window.addEventListener('DOMContentLoaded', function() {
+      const playlistId = getPlaylistId();
+      const playlistIdElement = document.getElementById('playlistId');
+
+      if (playlistId) {
+        playlistIdElement.textContent = playlistId;
+      } else {
+        playlistIdElement.textContent = 'Unable to load playlist ID';
+        // Hide playlist info if no ID found
+        document.getElementById('playlistInfo').style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>
